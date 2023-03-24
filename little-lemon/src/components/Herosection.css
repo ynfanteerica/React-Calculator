@@ -1,0 +1,22 @@
+.Section {
+    background-color: rgb(228, 174, 25);
+}
+
+
+.container {
+   
+    float:left;
+    
+}
+
+.pic {
+   
+  
+    float: right;
+   
+    padding: 50px;
+}
+
+img {
+    border-radius: 25px;
+}

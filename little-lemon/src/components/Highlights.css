@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  
+  }
+
+
+ h3 {
+    text-decoration-line: underline overline;
+ }
+
+ span {
+    color: red;
+ }
+ .Article {
+    background-color: rgb(41, 93, 93);
+ }
