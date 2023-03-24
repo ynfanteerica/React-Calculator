@@ -15,7 +15,7 @@ import React,{ Component } from 'react'
       
       <Navbar bg="primary" variant="dark">
         <Container>
-        <img src={lemon} alt="logo" style={{width:50, marginTop: -7}} />
+        <img src={lemon} alt="logo" style={{width:50, marginTop: -7,  borderStyle: 'solid',paddingRight:'10px'}} />
         <br/>
           <Navbar.Brand href="#home">Little lemon</Navbar.Brand>
           <Nav className="me-auto">

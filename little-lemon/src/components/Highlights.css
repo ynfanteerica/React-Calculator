@@ -14,3 +14,21 @@
  .Article {
     background-color: rgb(41, 93, 93);
  }
+ .grid {
+    position: absolute;
+    z-index: 2;
+    margin-left: 100px;
+    margin-top: 100px;
+ }
+ .grid1 {
+    position: absolute;
+    z-index: 1;
+ }
+ .box {
+    float: right;
+    padding-right: 400px;
+    padding-top: 100px;
+ }
+h1 {
+    text-decoration-line: underline overline;
+}

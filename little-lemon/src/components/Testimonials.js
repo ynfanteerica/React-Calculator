@@ -20,8 +20,8 @@ export default class Testimonial extends Component {
 return (
     <div>
         
-<Container>
-    <h3 style={{paddingTop: '100px',paddingBottom: '20px'}}>Testimonials</h3>
+<Container className='Article'>
+    <h3 style={{paddingTop: '100px',paddingBottom: '20px',color: 'white'}}>Testimonials</h3>
 
     <Row>
         <Col><Card style={{ width: '18rem' }} className= 'Section'>
