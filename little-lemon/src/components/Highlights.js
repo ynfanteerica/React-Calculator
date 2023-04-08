@@ -17,13 +17,13 @@ export default class Highlights extends Component {
             <div>
                 
                <Container className='Article'>
-               <h3 style={{textAlign: 'center',paddingTop: '100px', color: 'white'}}>Specials</h3>
+               <h3 style={{textAlign: 'center',paddingTop: '100px', color: 'white'}} id='menu'>Specials</h3>
                <div style={{float: 'center',paddingBottom: 50, paddingLeft: '500px'}}>
                <Button variant="dark">Online menu</Button>
                <br/>
                </div>
                <CardGroup>
-      <Card  border="secondary" style={{marginLeft: '.5rem'}}>
+      <Card  border="secondary" style={{marginLeft: '.5rem'}} id='ordersonline'>
         <Card.Img variant="top" src={lobstersalad } />
         <Card.Body>
           <Card.Title> Aragosta alla Catalana <span>$8.99</span></Card.Title>
@@ -57,7 +57,7 @@ export default class Highlights extends Component {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-        <Button variant="primary">Order a delivery</Button>{' '}
+        <Button variant="primary" >Order a delivery</Button>{' '}
         </Card.Footer>
       </Card>
     </CardGroup>

@@ -13,7 +13,7 @@ export default class Aboutme extends Component {
    render() {
     return (
         <div>
-         <Container className='Article'>
+         <Container className='Article' id='about'>
             <h3 style={{paddingTop: '100px',paddingBottom: '20px', color: 'white'}}>About us</h3>
             <Row>
         <Col> <Card border="dark"  style={{ width:'600px',height: '600px'}}>

@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+
 import lemon from './images/lemon.jpeg'
 
 
@@ -19,7 +19,7 @@ export default class Footer extends Component {
                 <Container className='Article' style={{paddingTop: '100px',paddingBottom: '20px'}}>
                 <Row md={4}>
         <Col>  <img src={lemon} alt="logo" style={{width:'200', height:'100px', borderStyle: 'solid',}}/></Col>
-        <Col xs={6}>  <Card border="danger" style={{ width: '18rem' }}>
+        <Col xs={6}>  <Card border="dark" style={{ width: '18rem' }}>
       <Card.Body>  
         <Card.Title style={{textDecorationLine: ' underline overline'}}>Navigation</Card.Title>
         <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
@@ -36,7 +36,7 @@ export default class Footer extends Component {
       
       </Card.Body>
     </Card></Col>
-        <Col>  <Card border="danger" style={{ width: '18rem',backgroundColor:'' }}>
+        <Col>  <Card border="dark" style={{ width: '18rem',backgroundColor:'' }}>
       <Card.Body style={{paddingLeft: '10px'}}>
         <Card.Title style={{textDecorationLine: ' underline overline'}}>Contact</Card.Title>
         <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
@@ -48,10 +48,10 @@ export default class Footer extends Component {
        
       </Card.Body>
     </Card></Col>
-        <Col>  <Card border="danger" style={{ width: '18rem' }}>
+        <Col>  <Card border="dark" style={{ width: '18rem' }}>
       <Card.Body style={{paddingLeft: '10px'}}>
         <Card.Title style={{textDecorationLine: ' underline overline'}}>Social Media links</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Subtitle className="mb-2 text-muted"></Card.Subtitle>
         <Card.Text>
         <Card.Link href="#">Address</Card.Link>
         <Card.Link href="#">phone number</Card.Link>
