@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/little-lemon-app/static/css/main.eb964846.css",
+    "main.js": "/little-lemon-app/static/js/main.d5e77c59.js",
+    "static/js/787.a2f6b77c.chunk.js": "/little-lemon-app/static/js/787.a2f6b77c.chunk.js",
+    "static/media/seats.png": "/little-lemon-app/static/media/seats.0b6e4c5d0fab85186e7f.png",
+    "static/media/building.png": "/little-lemon-app/static/media/building.1ad4245dd11fc619b0d9.png",
+    "static/media/customer.png": "/little-lemon-app/static/media/customer.e903fe971f79857772b2.png",
+    "static/media/star.png": "/little-lemon-app/static/media/star.5090d6bd28916847e37f.png",
+    "static/media/client.png": "/little-lemon-app/static/media/client.50b79c3a0b8cae544ba2.png",
+    "static/media/happy1.png": "/little-lemon-app/static/media/happy1.618cbf93f0b6683ce910.png",
+    "static/media/lobstersalad.jpeg": "/little-lemon-app/static/media/lobstersalad.e6485fe65b79c147567a.jpeg",
+    "static/media/bruchata.jpeg": "/little-lemon-app/static/media/bruchata.eca247e76b766bd36c1a.jpeg",
+    "static/media/foodlemon.jpeg": "/little-lemon-app/static/media/foodlemon.a393a48fc7fcecb45d22.jpeg",
+    "index.html": "/little-lemon-app/index.html",
+    "main.eb964846.css.map": "/little-lemon-app/static/css/main.eb964846.css.map",
+    "main.d5e77c59.js.map": "/little-lemon-app/static/js/main.d5e77c59.js.map",
+    "787.a2f6b77c.chunk.js.map": "/little-lemon-app/static/js/787.a2f6b77c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb964846.css",
+    "static/js/main.d5e77c59.js"
+  ]
+}
