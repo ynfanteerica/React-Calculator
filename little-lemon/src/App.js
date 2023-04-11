@@ -9,8 +9,11 @@ import Testimonial from './components/Testimonials';
 import Aboutme from './components/Aboutme';
 import Footer from './components/Footer';
 import Modal from './components/Modal'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Confirm from './components/Confirm'
+import { Routes,
+  Route,
+  } from "react-router-dom";
+
 
 function App() {
   
@@ -20,19 +23,19 @@ function App() {
       <NavbarComp/>
         <Herosection/>
        <Modal/>
+      
         <Highlights/>
         <Testimonial/>
         <Aboutme/>
         <Footer/>
-        <BrowserRouter>
-      <Routes>
-        <Route path="/confirm" element={<Confirm />}>
-         
         
-        </Route>
+        <Routes>
+        <Route path="/" component={Modal} exact />
+        <Route path="/confirm" component={Confirm} exact />
       </Routes>
-    </BrowserRouter>
+    
     </div>
+     
   );
 }
 
